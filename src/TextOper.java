@@ -37,10 +37,15 @@ public class TextOper {
 
         if ((s4.contains("F")) && (s4.length() < 7)) {
             System.out.println("s4 contains F");
-        } else {
+        }
+        else {
             System.out.println("s4 doesn't contain F");
         }
     }
     // &&  - AND || - OR
+    /* OR || at least one must be true
+    AND && both must be true
+     */
+
 
 }
