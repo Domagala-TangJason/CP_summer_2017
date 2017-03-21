@@ -19,12 +19,12 @@ public class Conditions {
                 System.out.println(b);
             }
         }
-        System.out.println(b);
+      //  System.out.println(b);
         // Since b was specified in the block, it can only be seen within it, cant be called outside
-    }
 
     // exclusive OR is used and only one can be true XOR
 
+/*
     double n = 6;
     if (n => 5 && n <= 8){
         System.out.println("n is within the limit");
@@ -59,6 +59,9 @@ public class Conditions {
 
     int result = a.equals("B") ? 10 : 9;
         System.out.println("res = " + result);
-}
+
+*/
+
+    }
 }
 

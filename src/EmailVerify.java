@@ -18,7 +18,8 @@ public class EmailVerify {
 
 // or we can use nested if statements
 
-        if (address.contains("@") && address.contains(".") && address.indexOf("@") > 0 && address.indexOf(".") < address.length() && address.indexOf("@") < address.indexOf(".")))
+        if (address.contains("@") && address.contains(".") && address.indexOf("@") > 0
+                && address.indexOf(".") < address.length() && address.indexOf("@") < address.indexOf("."))
         {
             atSign = true;
             dot = true;
