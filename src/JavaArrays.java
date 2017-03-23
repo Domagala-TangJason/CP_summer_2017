@@ -2,6 +2,16 @@
  * Created by Jason on 3/20/2017.
  */
 public class JavaArrays {
+
+    static Double sumArray(Double[] arr) {
+        double result = 0.0;
+        for (int i = 0; i < arr.length; i++) {
+            result += arr[i];
+        }
+        return result;
+    }
+
+
     public static void main(String[] args) {
         // Arrays are used to store lots of unifrom data values
         int [] a = {10, 20, 30, 40, 50};
@@ -43,6 +53,36 @@ public class JavaArrays {
             }
             System.out.println();
         }
+
+        // class notes
+        // If we defined the array as Integer arInt, then the 0 will be null values
+        int[] arInt = new int[3];
+        arInt[0] = 5;
+        arInt[1] = 7;
+
+        for (int i=0;i<arInt.length;i++){
+            System.out.println(arInt[i]);
+        }
+
+        String[] arStr = new String[] {
+                "abc","def","ghi"
+        };
+        // size of the array cannot change once it is defined
+        for (int j=0;j<arStr.length;j++){
+            System.out.println(arStr[j]);
+        }
+
+        //for each
+        for (String element: arStr){
+            System.out.println("for each " + element);
+        }
+
+        Double[] arDouble = new Double[]{
+                54.24,652.3,21.03
+        };
+        System.out.println(sumArray(arDouble));
+
+
 
 
 
