@@ -15,8 +15,9 @@ public class TextFileRead {
         System.out.println(input);
 
         */
+
     try {
-        File myFile = new File("H:\\filelocation");
+        File myFile = new File("C:\\Users\\Jason\\IdeaProjects\\CP_summer_2017\\src\\JavaHomework\\TicTacToe.txt");
         Scanner scanner = new Scanner(myFile);
         int i = 0;
         while (scanner.hasNext()) {
